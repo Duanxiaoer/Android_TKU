@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">TKu</string>
+    <string name="t1">1+2= </string>
+    <string name="t10001">A.3</string>
+    <string name="t10002">B.1</string>
+    <string name="versionName">1.0.0</string>
+
+    <string name="t2">0+2= </string>
+    <string name="t20001">A.1</string>
+    <string name="t20002">B.2</string>
+
+    <string name="t3">2+2= </string>
+    <string name="t30001">A.1</string>
+    <string name="t30002">B.2</string>
+    <string name="t10003">C.3</string>
+    <string name="t10004">D.4</string>
+
+    <string name="t4">2 X 2= </string>
+    <string name="t40001">A.3</string>
+    <string name="t40002">B.4</string>
+
+    <string name="submit">提交</string>
+
+
+</resources>

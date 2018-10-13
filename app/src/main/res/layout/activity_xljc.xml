@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.boring.duanqifeng.tku.Duilie">
+
+    <Button
+        android:id="@+id/单选"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="41dp"
+        android:text="单选" />
+
+    <Button
+        android:id="@+id/多选"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="113dp"
+        android:text="多选"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/例外"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/判断"
+        android:layout_below="@+id/判断"
+        android:layout_marginTop="33dp"
+        android:text="超多选项题" />
+
+    <Button
+        android:id="@+id/判断"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/多选"
+        android:layout_below="@+id/多选"
+        android:layout_marginTop="31dp"
+        android:text="判断" />
+</RelativeLayout>
